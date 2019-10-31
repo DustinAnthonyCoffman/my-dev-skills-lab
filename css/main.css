@@ -1,0 +1,90 @@
+:root {
+    --first-color: rgb(131, 202, 118);
+    --second-color: rgb(255, 155, 0);
+    --third-color: rgb(239, 90, 92);
+}
+  
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: solid gray;
+    width: 800px;
+    height: 600px;
+  
+}
+  
+  .first {
+
+      position: absolute;
+      top: 8rem;
+      left: 6rem;
+      width: 400px;
+      height: 40px;
+      text-align: center;
+      background-color: var(--first-color);
+      color: #ffffff;
+}
+.first h1 {
+
+    margin:auto;
+    line-height: 40px;
+    vertical-align:middle;
+ 
+}
+
+#field {
+    position: absolute;
+    left: 8rem;
+    top: 20rem;
+    width: 200px;
+    height: 25px;
+    border-block-color: var(--first-color);
+    border: solid var(--first-color);
+}
+
+.mainButton {
+    position: absolute;
+    left: 21.5rem;
+    top: 20rem;
+    font-size: 20px;
+    height: 35px;
+    color: var(--first-color);
+    border: solid var(--first-color);
+}
+
+
+
+ol {
+    position: absolute;
+    margin: 0;
+    max-height: 100px;
+    overflow: auto;  /*makes scrollable li items */
+    top: 200px;
+    left: 160px;
+    list-style: none;
+    font-size: 1rem;
+    color: var(--second-color);
+
+}
+
+
+.red {
+    position: sticky;
+    top: 200px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    background-color: var(--third-color);
+    color: white;
+    width: 30px;
+    height: 20px;
+}
+
+
